@@ -1,0 +1,2 @@
+function r(r){return Number(r.replace(/[^0-9.-]+/g,""))}var e,a=document.querySelector("ul");(e=Array.from(a.querySelectorAll("li"))).sort(function(e,a){return r(a.dataset.salary)-r(e.dataset.salary)}),e.forEach(function(r){return a.appendChild(r)}),console.log(Array.from(a.querySelectorAll("li")).map(function(r){return{name:r.innerText,age:r.dataset.age,position:r.dataset.position,salary:r.dataset.salary}}));
+//# sourceMappingURL=index.70c05b99.js.map
